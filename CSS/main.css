@@ -22,7 +22,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color:rgba(0, 0, 0, 0.8) ;
+    background-color:rgba(0, 0, 0, 0.8);
 }
 
 .hero-text {
@@ -92,7 +92,7 @@ nav {
 .header {
     position: relative;
     height: 330px;
-    background-image: url('img/BG-wolfs-in-forest-phone.jpg');
+    background-image: url('/img/BG-wolfs-in-forest-phone.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -133,19 +133,19 @@ main {
 }
 
 .first-product {
-    background-image: url('img/children-593313_640.jpg');
+    background-image: url('/img/children-593313_640.jpg');
 }
 
 .secend-product {
-    background-image: url('img/keyboard-70506_640.jpg');
+    background-image: url('/img/keyboard-70506_640.jpg');
 }
 
 .third-product{
-    background-image: url('img/woman-1851464_640.jpg');
+    background-image: url('/img/woman-1851464_640.jpg');
 }
 
 .fourth-product {
-    background-image: url('img/laptop-1483974_640.jpg');
+    background-image: url('/img/laptop-1483974_640.jpg');
 }
 
 /* contact */
@@ -197,7 +197,8 @@ footer {
 
     .header {
         height: 400px;
-        background-image: url('img/BG-wolfs-forest-pc.jpg');
+        background-image: url('/img/BG-wolfs-forest-pc.jpg');
+        background-position: 0 80%;
     }
 
     .hero-text h1 {
@@ -210,6 +211,22 @@ footer {
 
     .products h3 {
         font-size: 24px;
+    }
+
+    .first-product {
+        background-image: url('/img/children-593313_1920.jpg');
+    }
+    
+    .secend-product {
+        background-image: url('/img/keyboard-70506_1920.jpg');
+    }
+    
+    .third-product{
+        background-image: url('/img/woman-1851464_1920.jpg');
+    }
+    
+    .fourth-product {
+        background-image: url('/img/laptop-1483974_1920.jpg');
     }
 }
 
